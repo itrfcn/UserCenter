@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://154.9.235.166:3306/user-vue
-    username: user-vue
-    password: tGs5featEyJMLmFb
+    url: jdbc:mysql://**.9.***.166:3306/user-vue
+    username: *******
+    password: *****
   session:
     timeout: 86400
 
