@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: user-center
+
+  # DataSource Config
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/itrf
+    username: root
+    password: 123456
+server:
+  port: 8080
+#  servlet:
+#    context-path: /api
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false #关闭驼峰命名规则映射
+  global-config:
+    db-config:
+      logic-delete-field: isDelete # 全局逻辑删除字段名
+      logic-delete-value: 1 # 逻辑已删除值
+      logic-not-delete-value: 0 # 逻辑未删除值
