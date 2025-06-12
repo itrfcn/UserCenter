@@ -1,3 +1,5 @@
+> [!NOTE]
+> 此项目已停止更新维护，功能已与新项目[TeamSpace](https://github.com/itrfcn/TeamSpace) 合并。
 # 用户管理系统
 
 > 此项目没有什么亮点，仅用于学习github
